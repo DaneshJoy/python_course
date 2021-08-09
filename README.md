@@ -6,14 +6,14 @@
 
 ## محیط‌های کدنویسی پایتون
  
-- <a href="https://docs.microsoft.com/en-us/windows/terminal/get-started" target="_blank">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Windows_Terminal_Logo_256x256.png" alt="windows terminal" width="40" height="40"/> Terminal 
+- <a target="_blank" href="https://docs.microsoft.com/en-us/windows/terminal/get-started">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Windows_Terminal_Logo_256x256.png" alt="windows terminal" width="40" height="40"/> Terminal </a>
     <br/>
-- <a href="https://code.visualstudio.com/" target="_blank">
-  <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png" alt="vscode" width="40" height="40"/> VS Code 
+- <a target="_blank" href="https://code.visualstudio.com/">
+  <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png" alt="vscode" width="40" height="40"/> VS Code </a>
     <br/>
-- <a href="https://www.spyder-ide.org/" target="_blank">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Spyder_logo.svg/800px-Spyder_logo.svg.png" alt="spyder" width="40" height="40"/> Spyder 
+- <a target="_blank" href="https://www.spyder-ide.org/">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Spyder_logo.svg/800px-Spyder_logo.svg.png" alt="spyder" width="40" height="40"> Spyder </a>
     
 </div>
 
