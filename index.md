@@ -1,7 +1,7 @@
   
 #  دوره آموزش پایتون
-- اسلایدها و کدهای دوره آموزش پایتون <a href="https://www.python.org/">
-  <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" alt="python" width="40" height="40"/></a>
+- اسلایدها و کدهای دوره آموزش  <a target="_blank" href="https://www.python.org/">
+  <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> پایتون </a>
 
 ## محیط‌های کدنویسی پایتون
  
