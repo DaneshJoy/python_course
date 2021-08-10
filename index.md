@@ -1,4 +1,3 @@
-<div dir="rtl">
   
 #  دوره آموزش پایتون
 - اسلایدها و کدهای دوره آموزش پایتون <a href="https://www.python.org/">
@@ -15,6 +14,4 @@
 - <a target="_blank" href="https://www.spyder-ide.org/">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Spyder_logo.svg/800px-Spyder_logo.svg.png" alt="spyder" width="40" height="40"> Spyder </a>
     
-</div>
-
 
