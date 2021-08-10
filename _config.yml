@@ -1,9 +1,0 @@
-theme: jekyll-theme-architect
-
-# Site Settings
-locale                    : "fa-IR"
-title                     : "Python Course"
-name                      : "سعید محققی Saeed Mohagheghi"
-
-description               : "دوره آموزش پایتون"
-show_downloads            : true
