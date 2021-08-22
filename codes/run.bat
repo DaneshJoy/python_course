@@ -1,5 +1,6 @@
 @echo off
-python -c "import sys; print(sys.version)"
+echo.
+python 02_bmi_calculator.py
 echo.
 echo.
 pause
