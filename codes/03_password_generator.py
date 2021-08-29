@@ -23,7 +23,7 @@ numbers = '0123456789'
 numbers_list = list(numbers)
 
 # List of symbols
-symbols = '~!@#$%^&*-_=+?.☻'
+symbols = '~!@#$%^&*-_=+?.'
 symbols_list = list(symbols)
 
 # Create random password

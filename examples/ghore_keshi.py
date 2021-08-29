@@ -1,6 +1,6 @@
-import random
-
 # Barname Ghorekeshi
+
+import random
 
 names = input('Please enter names (separated by ","): ')
 
@@ -12,6 +12,7 @@ names_list = names.split(',')
 
 # Method 2
 print(random.choice(names_list))
+    
 
 
 
