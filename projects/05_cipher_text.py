@@ -37,9 +37,10 @@ while True:
         else:
             result += chr((ord(char) + s - 97) % 26 + 97)
         
-        
+
     # TODO: Decrypt
-    
+
+            
     # report to the user
     print('Encrypted text:', result)
 
