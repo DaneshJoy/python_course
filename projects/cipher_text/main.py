@@ -30,12 +30,6 @@ while True:
     # TODO: check if user input is valid and act
     # TODO: clear screen
     
-    # Get text from user
-    cipher_text = input('Enter your text: ')
-
-    # Encrypt Text
-    s = 13
-    
     direction = ''
     if (user_choice == '1'):
         direction = 'encrypt'
@@ -46,6 +40,13 @@ while True:
     elif (user_choice == 'x'):
         sys.exit()
         
+        
+    # Get text from user
+    cipher_text = input('Enter your text: ')
+
+    # Encrypt Text
+    s = int(input('Enter shift value: '))
+     
     result = funcs.apply_caesar_cipher(direction, cipher_text, s)
             
     # report to the user
