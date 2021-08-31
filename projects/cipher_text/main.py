@@ -1,9 +1,16 @@
 '''
 Cipher App
 '''
+import sys
+import art
+import funcs
 
+
+funcs.clear_screen()
 while True:
     # TODO: Better UI
+    
+    print(art.logo1)
     
     # Menu
     print('''
@@ -12,37 +19,37 @@ while True:
         2- Decryption
         x- Exit
         ''')
- 
+
+     
     user_choice = input()
     
+    funcs.clear_screen()
     
-    # TODO: check user choice and act
+    print(art.logo1)
+    
     # TODO: check if user input is valid and act
     # TODO: clear screen
-
+    
     # Get text from user
     cipher_text = input('Enter your text: ')
 
     # Encrypt Text
     s = 13
-    result = ''
-    for i in range(len(cipher_text)):
-        char = cipher_text[i]
-        
-        # Encrypt uppercase characters
-        if (char.isupper()):
-            result += chr((ord(char) + s - 65) % 26 + 65)
- 
-        # Encrypt lowercase characters
-        else:
-            result += chr((ord(char) + s - 97) % 26 + 97)
-        
+    
+    direction = ''
+    if (user_choice == '1'):
+        direction = 'encrypt'
+            
+    elif (user_choice == '2'):
+        direction = 'decrypt'
 
-    # TODO: Decrypt
-
+    elif (user_choice == 'x'):
+        sys.exit()
+        
+    result = funcs.apply_caesar_cipher(direction, cipher_text, s)
             
     # report to the user
-    print('Encrypted text:', result)
+    print('Result:', result)
 
     # ask user to continue or exit?
     u_c = input('''
@@ -55,6 +62,8 @@ while True:
 
     if u_c == 'n':
         break
+    
+    funcs.clear_screen()
 
 
 
