@@ -1,4 +1,4 @@
-riazi, 11
+riazi, 15.5
 physic, 17
 shimi, 19
 adabiat, 18
