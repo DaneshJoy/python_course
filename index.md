@@ -1,4 +1,4 @@
-<div dir="rtl">
+<div dir="rtl" lang="fa">
   
 #  دوره آموزش پایتون
 - اسلایدها و کدهای دوره آموزش پایتون <a href="https://www.python.org/">
