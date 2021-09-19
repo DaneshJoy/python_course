@@ -42,3 +42,20 @@ bmis = []
 # Method 2
 for w, h in zip(weight_list_kg, heights_list_cm):
     bmis.append(calculate_bmi(w, h))
+
+''' --->> Save result <<--- '''
+# Create dataframe
+
+out_data = {'Index': data.Index,
+            'Height (cm)': heights_list_cm,
+            'Weight (kg)': weight_list_kg,
+            'BMI': bmis}
+
+out_df = pd.DataFrame(out_data)
+
+out_df = out_df.set_index('Index')
+
+out_df.to_csv('out.csv')
+out_df.to_excel('out.xlsx')
+out_df.to_html('out.html')
+out_df.to_json('out.json')
