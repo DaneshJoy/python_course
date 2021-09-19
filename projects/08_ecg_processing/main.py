@@ -25,7 +25,7 @@ ecg_data = ecg_data.transpose()
 ecg_data = np.squeeze(ecg_data)
 peaks = signal.find_peaks(ecg_data, height=1300)[0]
 
-''' --->> Show Peaks on signal <<---'''
+''' --->> Show Peaks on signal <<--- '''
 plt.plot(ecg_data, label='ECG Signal')
 plt.scatter(peaks, ecg_data[peaks], c='m', marker='v', s=90, label='R Peaks')
 plt.legend(loc='upper left')
