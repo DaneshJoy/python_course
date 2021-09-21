@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Sep 21 17:18:28 2021
 
-@author: Saeed
-"""
 import cv2
 
 ''' Read Image '''

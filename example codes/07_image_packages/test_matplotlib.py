@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Sep 21 17:20:23 2021
 
-@author: Saeed
-"""
 import matplotlib.image as mpimg
 import matplotlib.pyplot as plt
 
@@ -17,7 +12,7 @@ plt.show()
 
 
 ''' Process Image '''
-# Matplotlib is not used for image processing
+# !!! We can't use matplotlib for image processing
 
 
 ''' Save Image '''

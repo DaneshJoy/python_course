@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Sep 21 17:20:15 2021
-
-@author: Saeed
-"""
 
 from PIL import Image
 
