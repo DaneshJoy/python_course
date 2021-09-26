@@ -4,17 +4,19 @@ Created on Sun Sep 26 17:12:10 2021
 
 @author: Saeed
 """
-from PIL import Image, ImageEnhance
-import matplotlib.pyplot as plt
+from PIL import Image
+from visualization import show_image_pair, show_four_images
+from image_utils import enhance_image
+import os
 
 
 ''' Read Image '''
 image_path = 'images_input/(1).png'
-img = Image.open(image_path)
 
-''' Show Image '''
-plt.imshow(img)
-plt.show()
+try:
+    img = Image.open(image_path)
+except:
+    print('Could not load file')
 
 ''' Rotate Image'''
 # img_rotated = img.rotate(90)
@@ -27,15 +29,28 @@ img_resized = img.reduce(2)
 
 ''' Enhance Image '''
 # Brightness
-current_brightness = ImageEnhance.Brightness(img_resized)
-img_brightened = current_brightness.enhance(2)
+img_brightened = enhance_image(img_resized, 'bri', 2)
 
 # Contrast
-# TODO: Increase contrast
+img_contrasted = enhance_image(img_brightened, 'con', 1.5)
 
 # Color
-# TODO: Increase color
+img_saturated = enhance_image(img_contrasted, 'col', 1.5)
 
-plt.figure()
-plt.imshow(img_brightened)
-plt.show()
+''' Show Image '''
+show_four_images(img_resized, img_brightened, img_contrasted, img_saturated)
+show_image_pair(img_resized, img_saturated)
+
+
+''' Save Image '''
+try:
+    out_dir = 'enhanced_images'
+    if not os.path.exists(out_dir):
+        os.mkdir(out_dir)
+    
+    input_filename = image_path.split('/')[-1]
+    out_file = input_filename.split('.')[0] + '_enhanced.' + input_filename.split('.')[-1]
+    new_file = os.path.join(out_dir, out_file)
+    img_saturated.save(new_file, img.format)
+except:
+    print('Could not save file')
