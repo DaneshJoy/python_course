@@ -6,22 +6,18 @@
 
 ## محیط‌های کدنویسی پایتون
 
-- <a target="_blank" href="https://docs.microsoft.com/en-us/windows/terminal/get-started">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Windows_Terminal_Logo_256x256.png" alt="windows terminal" width="40" height="40"/> Terminal </a>
-  <br/>
-- <a target="_blank" href="https://www.python.org/">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Text-x-python.svg/72px-Text-x-python.svg.png" alt="windows terminal" width="40" height="40"/> IDLE </a>
-  <br/>
-- <a target="_blank" href="https://thonny.org/">
+IDEs >>> 
+<a target="_blank" href="https://docs.microsoft.com/en-us/windows/terminal/get-started">
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Windows_Terminal_Logo_256x256.png" alt="windows terminal" width="40" height="40"/> Terminal </a>
+<a target="_blank" href="https://www.python.org/">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Text-x-python.svg/72px-Text-x-python.svg.png" alt="windows terminal" width="40" height="40"/> IDLE </a>
+<a target="_blank" href="https://thonny.org/">
   <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Thonny_logo.png" alt="thonny" width="40" height="40"/> Thonny </a>
-  <br/>
-- <a target="_blank" href="https://www.spyder-ide.org/">
+<a target="_blank" href="https://www.spyder-ide.org/">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Spyder_logo.svg/800px-Spyder_logo.svg.png" alt="spyder" width="40" height="40"> Spyder </a>
-  <br/>
-- <a target="_blank" href="https://jupyter.org/">
+<a target="_blank" href="https://jupyter.org/">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1200px-Jupyter_logo.svg.png" alt="vscode" width="40" height="45"/> Jupyter </a>
-  <br/>
-- <a target="_blank" href="https://code.visualstudio.com/">
+<a target="_blank" href="https://code.visualstudio.com/">
   <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png" alt="vscode" width="40" height="40"/> VS Code </a>
 
   
