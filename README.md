@@ -30,27 +30,29 @@
 
 ## لینک ضبط شده هفتمین دوره پایتون جهاد دانشگاهی صنعتی شریف
 
-01. 17 مرداد : http://el3.jsharif.com/piob2oxy7xkj
-02. 19 مرداد : http://el3.jsharif.com/p2d7rds5hh85
-03. 24 مرداد : http://el3.jsharif.com/p0xtlywhpaht
-04. 26 مرداد : http://el3.jsharif.com/p669fpkqfnzx
-05. 31 مرداد : http://el3.jsharif.com/pkqdmgb6kmwe
-06. 02 شهریور : http://el3.jsharif.com/pfghd61b0l3b
-07. 07 شهریور : http://el3.jsharif.com/pizbdps6ridj
-08. 09 شهریور : http://el3.jsharif.com/p171nkauxjr9
-09. 14 شهریور : http://el3.jsharif.com/pwofis02leop
-10. 16 شهریور : http://el3.jsharif.com/pqtjytuq0uts
-11. 21 شهریور : http://el3.jsharif.com/pxdi3x34pda2
-12. 23 شهریور : http://el3.jsharif.com/p9dyazlp3c4t
-13. 28 شهریور : http://el3.jsharif.com/p5xol4hlkkfe
-14. 30 شهریور : http://el3.jsharif.com/p6qz9olfzzfn
-15. 04 مهر : http://el3.jsharif.com/pf4rs6r5kd16
-16. 06 مهر : http://el3.jsharif.com/p77svmzvv3ju
-17. 11 مهر :
-18. 18 مهر :
-19. 20 مهر :
-20. 25 مهر :
-21. 27 مهر :
+| جلسه | تاریخ | لینک |
+|:--:|:--------:|:------------------------------------:|
+| 01 | 17 مرداد | http://el3.jsharif.com/piob2oxy7xkj
+| 02 | 19 مرداد | http://el3.jsharif.com/p2d7rds5hh85
+| 03 | 24 مرداد | http://el3.jsharif.com/p0xtlywhpaht
+| 04 | 26 مرداد | http://el3.jsharif.com/p669fpkqfnzx
+| 05 | 31 مرداد | http://el3.jsharif.com/pkqdmgb6kmwe
+| 06 | 02 شهریور | http://el3.jsharif.com/pfghd61b0l3b
+| 07 | 07 شهریور | http://el3.jsharif.com/pizbdps6ridj
+| 08 | 09 شهریور | http://el3.jsharif.com/p171nkauxjr9
+| 09 | 14 شهریور | http://el3.jsharif.com/pwofis02leop
+| 10 | 16 شهریور | http://el3.jsharif.com/pqtjytuq0uts
+| 11 | 21 شهریور | http://el3.jsharif.com/pxdi3x34pda2
+| 12 | 23 شهریور | http://el3.jsharif.com/p9dyazlp3c4t
+| 13 | 28 شهریور | http://el3.jsharif.com/p5xol4hlkkfe
+| 14 | 30 شهریور | http://el3.jsharif.com/p6qz9olfzzfn
+| 15 | 04 مهر | http://el3.jsharif.com/pf4rs6r5kd16
+| 16 | 06 مهر | http://el3.jsharif.com/p77svmzvv3ju
+| 17 | 11 مهر | 
+| 18 | 18 مهر | 
+| 19 | 20 مهر | 
+| 20 | 25 مهر | 
+| 21 | 27 مهر | 
 
 
 </div>
