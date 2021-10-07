@@ -44,7 +44,7 @@
 | 14 | 30 شهریور | http://el3.jsharif.com/p6qz9olfzzfn
 | 15 | 04 مهر | http://el3.jsharif.com/pf4rs6r5kd16
 | 16 | 06 مهر | http://el3.jsharif.com/p77svmzvv3ju
-| 17 | 11 مهر | 
+| 17 | 11 مهر | http://el3.jsharif.com/ptlqtbsmghvv
 | 18 | 18 مهر | 
 | 19 | 20 مهر | 
 | 20 | 25 مهر | 
