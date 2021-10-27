@@ -1,7 +1,0 @@
-riazi, 20
-physic, 11
-shimi, 20
-adabiat, 7.5
-zaban, 13.5
-varzesh, 17
-enzebat, 20

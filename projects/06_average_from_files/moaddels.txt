@@ -1,5 +1,0 @@
-student3 : 17.25
-student1 : 16.46
-student4 : 15.57
-student5 : 13.5
-student2 : 13.43
