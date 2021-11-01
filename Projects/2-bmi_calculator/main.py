@@ -13,7 +13,7 @@ bmi = w / h**2
 bmi = round(bmi, 1)
 
 # Gozaresh be karbar
-print(" Your BMI is:", bmi)
+print(f"Your BMI is: {bmi} kg/m^2 because your weight is {w} and your height is {h*100}")
 
 if bmi<18.5:
     print("Shoma Underweight Hastid")
