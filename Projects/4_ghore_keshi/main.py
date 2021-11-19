@@ -14,6 +14,7 @@ print()
 print('Asaami ra yeki yeki vared karde va Enter bezanid\n')
 print('Asaami tekrari be soorate khodkar hazf mishavand\n')
 print('Type "exit" to finish\n')
+
 # %% Daryafte Asami az karbar
 
 i = 1
@@ -49,5 +50,5 @@ print('>>> Asami Barandegan:\n')
 for name in winners:
     for c in name:
         print(c, end='')
-        time.sleep(0.3)
+        time.sleep(0.1)
     print()
