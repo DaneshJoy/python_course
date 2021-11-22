@@ -1,5 +1,5 @@
 '''
-Barname Ghore Keshi
+Barname Ghore Keshi (version 2)
 '''
 import random
 import time
@@ -20,23 +20,16 @@ def print_text(text):
 logo_list = [my_logos.logo1, my_logos.logo2, my_logos.logo3]
 logo = random.choice(logo_list)
 
-print(logo)
-print()
+print(logo + '\n')
 
-print(f'Today: {today.year}/{today.month:0>2}/{today.day:0>2}' +
+print(f'Emrooz: {today.year}/{today.month:0>2}/{today.day:0>2}' +
       f' {today.hour:0>2}:{today.minute:0>2}')
 
-# print('Asaami ra yeki yeki vared karde va Enter bezanid\n')
-s = 'Asaami ra yeki yeki vared karde va Enter bezanid'
-print_text(s)
+print_text('Asaami ra yeki yeki vared karde va Enter bezanid')
+print_text('Naamhaye tekrari be soorate khodkar hazf mishavand')
+print_text('Bad az akharin naam "exit" ra type konid')
 
-# print('Asaami tekrari be soorate khodkar hazf mishavand\n')
-s = 'Asaami tekrari be soorate khodkar hazf mishavand'
-print_text(s)
-
-print_text('Type "exit" to finish')
-
-# %% Daryafte Asami az karbar
+# %% Daryafte Asaami az karbar
 
 i = 1
 names_list = []

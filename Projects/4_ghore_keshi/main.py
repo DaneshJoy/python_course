@@ -12,8 +12,8 @@ logo = random.choice(logo_list)
 print(logo)
 print()
 print('Asaami ra yeki yeki vared karde va Enter bezanid\n')
-print('Asaami tekrari be soorate khodkar hazf mishavand\n')
-print('Type "exit" to finish\n')
+print('Naamhaye tekrari be soorate khodkar hazf mishavand\n')
+print('Bad az akharin naam "exit" ra type konid\n')
 
 # %% Daryafte Asami az karbar
 
@@ -48,7 +48,6 @@ winners = random.sample(names_list, n)
 # winners = '\n'.join(winners)
 print('>>> Asami Barandegan:\n')
 for name in winners:
-    print('\u2500'*6 + '\u25ba', end='')
     for c in name:
         print(c, end='')
         time.sleep(0.1)
