@@ -1,12 +1,14 @@
-#!/usr/bin/env python
-# ## Read Text Files in Python
-
 import os
+from collections import Counter 
 from text_reader import get_data_from_text_file
+import pprint
 
+
+ppt = pprint.PrettyPrinter()
 path = 'dataset'
 list_of_files = os.listdir(path)
 
+result_dict = {}
 for filename in list_of_files:
     # Method 1 for join paths
     # filepath = path + '/' + filename
@@ -18,5 +20,25 @@ for filename in list_of_files:
 
         scores = scores_dict.values()
         average = sum(scores) / len(scores)
-        print(f'{average:0.2f}')
+        
+        # Extract student name from filename
+        student_name = filename.split('.')[0]
+        
+        result_dict[student_name] = round(average, 2)
+        
+        print(f'\033[95m {student_name}: \033[92m{average:0.2f} \033[0m')
+
+# Sort results dictionary (Descending)
+result_sorted = Counter(result_dict).most_common()
+# Ascending results using reverse method
+# result_sorted.reverse()
+# ppt.pprint(result_sorted)
+
+# %% Write results to a file
+out_file = 'results.txt'
+with open(out_file, 'w') as f:
+    for i in result_sorted:
+        s = f'{i[0]}: {i[1]}\n'
+        f.write(s)
+        
 
