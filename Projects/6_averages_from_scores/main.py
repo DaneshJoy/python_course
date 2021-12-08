@@ -14,20 +14,22 @@ for filename in list_of_files:
     # filepath = path + '/' + filename
     # Method 2
     filepath = os.path.join(path, filename)
-    with open(filepath, 'r') as f:
-        my_data = f.readlines()
-        scores_dict = get_data_from_text_file(my_data)
-
-        scores = scores_dict.values()
-        average = sum(scores) / len(scores)
-        
-        # Extract student name from filename
-        student_name = filename.split('.')[0]
-        
-        result_dict[student_name] = round(average, 2)
-        
-        print(f'\033[95m {student_name}: \033[92m{average:0.2f} \033[0m')
-
+    try:
+        with open(filepath, 'r') as f:
+            my_data = f.readlines()
+            scores_dict = get_data_from_text_file(my_data)
+    
+            scores = scores_dict.values()
+            average = sum(scores) / len(scores)
+            
+            # Extract student name from filename
+            student_name = filename.split('.')[0]
+            
+            result_dict[student_name] = round(average, 2)
+            
+            print(f'\033[95m {student_name}: \033[92m{average:0.2f} \033[0m')
+    except:
+        print(f'Error reading from file: {filepath}')
 # Sort results dictionary (Descending)
 result_sorted = Counter(result_dict).most_common()
 # Ascending results using reverse method
@@ -36,9 +38,12 @@ result_sorted = Counter(result_dict).most_common()
 
 # %% Write results to a file
 out_file = 'results.txt'
-with open(out_file, 'w') as f:
-    for i in result_sorted:
-        s = f'{i[0]}: {i[1]}\n'
-        f.write(s)
+try:
+    with open(out_file, 'w') as f:
+        for i in result_sorted:
+            s = f'{i[0]}: {i[1]}\n'
+            f.write(s)
+except:
+    print('Can not create results file')
         
 
