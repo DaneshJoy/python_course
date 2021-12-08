@@ -4,6 +4,7 @@ from text_reader import get_data_from_text_file
 import pprint
 
 
+os.system('cls')  # We used this line to have working colors in cmd
 ppt = pprint.PrettyPrinter()
 path = 'dataset'
 list_of_files = os.listdir(path)
