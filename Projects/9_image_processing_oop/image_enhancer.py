@@ -2,18 +2,26 @@ from PIL import Image, ImageEnhance
 import matplotlib.pyplot as plt 
 
 class ImageEnhancer:
-    image_path = ''
-    img = None
-    img_output = None
+
+    def __init__(self, img_path):
+        self.image_path = img_path
+        self.img = None
+        self.img_output = None
     
     def load_image(self):
-        self.img = Image.open(self.image_path)
+        try:
+            self.img = Image.open(self.image_path)
+        except:
+            print('Can not load image')
     
     def show_image(self):
         plt.imshow(self.img)
         
     def save_image(self, output_path):
-        self.img_output.save(output_path)
+        try:
+            self.img_output.save(output_path)
+        except:
+            print('Can not save image')
         
     def enhance_image(self, f_brightness, f_contrast, f_color):
         en_brightness = ImageEnhance.Brightness(self.img)
@@ -34,4 +42,5 @@ class ImageEnhancer:
         axs[1].imshow(self.img_output)
         axs[1].set_title('Output Image (After)')
         axs[1].set_axis_off()
+        
         
