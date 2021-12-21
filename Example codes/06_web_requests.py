@@ -5,9 +5,10 @@ url = "https://weatherapi-com.p.rapidapi.com/current.json"
 city = input('Enter the name of your city: ')
 querystring = {"q": city}
 
+# Put your rapidapi key here
 headers = {
     'x-rapidapi-host': "weatherapi-com.p.rapidapi.com",
-    'x-rapidapi-key': "cdd069ee3emsh2881e053f53fdf0p1bafd9jsn2efdaeb7d08a"
+    'x-rapidapi-key': "YOUR RAPIDAPI KEY"
     }
 
 response = requests.get(url, headers=headers, params=querystring)
