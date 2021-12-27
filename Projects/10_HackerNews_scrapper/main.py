@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from tqdm import tqdm
 
 
-my_word = 'UseR'
+my_word = 'meta'
 num_pages = 15
 results = []
 

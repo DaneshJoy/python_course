@@ -6,7 +6,7 @@ class ImageLab:
     Image operations for rgb images
     Methods:
         - Read image
-        - Change Brightness/Contrast
+        - Change Brightness/Contrast/Color
         - Show image
         - Save image
     '''
