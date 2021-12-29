@@ -1,6 +1,10 @@
 
 from bs4 import BeautifulSoup
+import os
 
+
+''' Get battery report '''
+os.system('powercfg /batteryreport')
 
 with open('battery-report.html', 'r') as f:
     html_text = f.read()
