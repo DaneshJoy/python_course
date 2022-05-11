@@ -1,13 +1,15 @@
 <div dir="rtl">
-  
-#  دوره آموزش پایتون
-- اسلایدها و کدهای دوره آموزش پایتون <a href="https://www.python.org/">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/1200px-Python.svg.png" alt="python" width="50" height="50"/></a>
+
+#   دوره آموزش پایتون از صفر
+- اسلایدها و کدهای دوره آموزش پایتون از صفر  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/1200px-Python.svg.png" alt="python" width="50" height="50"/></a>
+
+لینک دوره رایگان (شامل فیلم‌ها و تمرین‌ها) در سایت کلاســیما:
+<a href="https://klassima.ir/courses/python-from-zero/" target="_blank">دوره آموزش پایتون از صفر</a>
 
 <hr class="rounded">
 
 ## محیط‌های کدنویسی پایتون
- 
+
 <a target="_blank" href="https://docs.microsoft.com/en-us/windows/terminal/get-started">
   <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Windows_Terminal_Logo_256x256.png" alt="Windows Terminal" title="Windows Terminal" width="40" height="40"/> </a>
 <a target="_blank" href="https://www.python.org/">
