@@ -1,4 +1,4 @@
-<div dir="rtl" align="right" lang="fa">
+<div dir="rtl" align="right">
 
 #   دوره آموزش پایتون از صفر
 - اسلایدها و کدهای دوره آموزش پایتون از صفر  <a href="https://python.org/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/1200px-Python.svg.png" alt="python" width="50" height="50"/></a>
@@ -6,9 +6,6 @@
 - لینک دوره رایگان (شامل فیلم‌ها و تمرین‌ها) در سایت کلاســیما: <a href="https://klassima.ir/courses/python-from-zero/">دوره آموزش پایتون از صفر</a>
 
 <hr class="rounded">
-</div>
-
-<div dir="rtl" align="right" lang="fa">
 
 ## محیط‌های کدنویسی پایتون
 
