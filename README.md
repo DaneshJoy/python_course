@@ -3,8 +3,8 @@
 #   دوره آموزش پایتون از صفر
 - اسلایدها و کدهای دوره آموزش پایتون از صفر  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/1200px-Python.svg.png" alt="python" width="50" height="50"/></a>
 
-لینک دوره رایگان (شامل فیلم‌ها و تمرین‌ها) در سایت کلاســیما:
-<a href="https://klassima.ir/courses/python-from-zero/" target="_blank">دوره آموزش پایتون از صفر</a>
+- لینک دوره رایگان (شامل فیلم‌ها و تمرین‌ها) در سایت کلاســیما:
+<a target="_blank" href="https://klassima.ir/courses/python-from-zero/">دوره آموزش پایتون از صفر</a>
 
 <hr class="rounded">
 
