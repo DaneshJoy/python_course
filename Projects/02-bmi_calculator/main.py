@@ -19,7 +19,7 @@ h = input("Please enter your height (in cm): ")
 if w.replace(".", " ").isdigit() and h.replace(".", " ").isdigit():
     w = float(w)
     h = float(h)
-    h /= 100
+    h /= 100  # h = h/100
 
     # Mohasebeye BMI
     bmi = w / h**2

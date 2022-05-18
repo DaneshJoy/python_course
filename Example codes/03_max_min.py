@@ -1,8 +1,7 @@
 s = [14, 6, 50, 3, 55, 2, 33, 56, 23, 8, 59, 34, 67, 14]
 
 # %% Method 1
-max_ = 0
-min_ = s[0]
+max_ = min_ = s[0]
 for i in s:
     if i > max_:
         max_ = i

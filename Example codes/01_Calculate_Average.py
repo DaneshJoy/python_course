@@ -7,7 +7,7 @@ for i in nomreha:
     # calculate sum
     s = s + i
     # Calculate number of items
-    n = n+1
+    n = n + 1
 
 average1 = s / n
 print("Average with method 1 is:", average1)
