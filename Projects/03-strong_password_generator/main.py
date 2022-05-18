@@ -45,7 +45,7 @@ for i in range(n):
     final_pass = ''.join(final_pass_list)
 
     passwords.append(final_pass)
-    print(f'Suggested Password {i+1}: {final_pass}')
+    # print(f'Suggested Password {i+1}: {final_pass}')
 
     # add a row to the table
     my_table.add_row([i+1, final_pass])
