@@ -34,7 +34,12 @@ names_list = list(set(names_list))
 # %% Tedade Barandegan
 
 while True:
-    n = int(input('Tedade Barandegan: '))
+    try:
+        n = int(input("Tedade barandegan? : "))
+    except:
+        print("Tedaad bayad yek addad bashad")
+        sys.exit()
+        
     if n > len(names_list):
         print('Tedade barandegan az tedade sherkat \
 konandegan bishtar ast')
