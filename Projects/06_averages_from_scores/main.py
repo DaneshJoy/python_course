@@ -43,8 +43,8 @@ result_sorted = Counter(result_dict).most_common()
 out_file = 'results.txt'
 try:
     with open(out_file, 'w') as f:
-        for i in result_sorted:
-            s = f'{i[0]}: {i[1]}\n'
+        for name, average in result_sorted:
+            s = f'{name}: {average}\n'
             f.write(s)
 except:
     print('Can not create results file')
