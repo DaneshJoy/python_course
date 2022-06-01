@@ -35,7 +35,7 @@ for filename in list_of_files:
 result_sorted = Counter(result_dict).most_common()
 # Ascending results using reverse method
 # result_sorted.reverse()
-# ppt.pprint(result_sorted)
+ppt.pprint(result_sorted)
 
 # %% Write results to a file
 out_file = 'results.txt'
