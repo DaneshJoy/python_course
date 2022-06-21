@@ -1,8 +1,9 @@
 class Employee:
-    name = ''
-    age = ''
-    code_melli = ''
-    estekhdam_date = ''
+    def __init__(self):
+        self.name = ''
+        self.age = ''
+        self.code_melli = ''
+        self.estekhdam_date = ''
     
     def sayHello(self):
         print('Hello from', self.name)
