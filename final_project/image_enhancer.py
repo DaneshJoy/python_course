@@ -1,7 +1,7 @@
 # Your imports here
 
 
-class ImageLab:
+class ImageEnhancer:
     '''
     Image operations for rgb images
     Methods:
@@ -13,9 +13,9 @@ class ImageLab:
     pass
 
 
-class ImageLabGray(ImageLab):
+class ImageEnhancerGray(ImageEnhancer):
     '''
-    ImageLab methods and properties + Auto-contrast for gray images
+    ImageEnhancer methods and properties + Auto-contrast for gray images
     Method:
         - Pillow Auto-contrast
     '''
