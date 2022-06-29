@@ -2,6 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 import pickle
 import json
+# from urllib.parse import unquote
+from requests.utils import unquote
 
 # Boilerplate
 links = ['https://www.2nabsh.com/%D8%A7%D9%85%D9%84%D8%A7%DA%A9-%D8%AA%D9%87%D8%B1%D8%A7%D9%86/%D8%AE%D8%B1%DB%8C%D8%AF-%D9%81%D8%B1%D9%88%D8%B4-%D8%A2%D9%BE%D8%A7%D8%B1%D8%AA%D9%85%D8%A7%D9%86/%D9%82%DB%8C%D9%85%D8%AA-%D8%AA%D8%A7-3-%D9%85%DB%8C%D9%84%DB%8C%D8%A7%D8%B1%D8%AF',
@@ -41,8 +43,8 @@ for i, lnk in enumerate(links):
 with open('data.pkl', 'wb') as f:
     pickle.dump(results_dict, f)
     
-with open('data.json', 'w') as f:
-    json.dump(results_dict, f)    
+with open('data.json', 'w', encoding='utf8') as f:
+    json.dump(results_dict, f, indent=4, ensure_ascii=False)    
         
         
         

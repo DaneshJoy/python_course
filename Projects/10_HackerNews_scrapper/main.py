@@ -1,11 +1,12 @@
 import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
+import json
 
 
 my_word = 'meta'
 num_pages = 15
-results = []
+results = {}
 
 # %% Get site data
 for i in tqdm(range(1, num_pages+1)):
@@ -22,4 +23,7 @@ for i in tqdm(range(1, num_pages+1)):
     # %% Find our desired word in link texts
     for link in links:
         if my_word.lower() in link.text.lower():
-            results.append((link['href'], link.text))
+            results[link.text] = link['href']
+
+with open('results.json', 'w') as f:
+    json.dump(results, f, indent=4)
