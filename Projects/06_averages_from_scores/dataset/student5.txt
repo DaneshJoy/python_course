@@ -1,7 +1,7 @@
-riazi, 15
-physic, 12.5
-shimi, 8
-adabiat, 13
-zaban, 10
-varzesh, 17
-enzebat, 19
+riazi,15
+physic,12.5
+shimi,8
+adabiat,13
+zaban,10
+varzesh,17
+enzebat,19
